@@ -18,3 +18,6 @@ console.log(pi*2);
 
 var a; 
 console.log(a)
+
+var a = "Hello world"
+console.log(a[a.length -1])
