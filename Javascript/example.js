@@ -109,3 +109,49 @@ const sum2 = (...args)=>{
 } 
 
 console.log(sum1(1,2,3,4,5));
+
+var spaceShuttle = function(targetPlanet){
+    this.targetPlanet = targetPlanet
+}
+
+var zeus = new spaceShuttle("Incoming");
+console.log(zeus.targetPlanet)
+
+
+
+class veg{
+    constructor(targetPlanet){
+        this.targetPlanet = targetPlanet
+    }
+}
+
+var zeus = new veg("Hello there")
+console.log(zeus.targetPlanet)
+
+
+function makeClass(){
+
+    class Thermostat{
+    constructor(temp){
+        this._val = 5/9 * (temp-32);
+    }
+    get temperature(){
+        return this._val;
+
+    }
+
+    set temperature(newtemp){
+        this._val = newtemp;
+    }
+    }
+    return Thermostat;
+}
+
+
+const Thermostat = makeClass();
+const thermos = new Thermostat(76);
+let temp = thermos.temperature;
+thermos.temperature =26;
+temp = thermos.temperature;
+
+
