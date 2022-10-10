@@ -44,3 +44,21 @@ myarray.shift()
 console.log(myarray)
 myarray.unshift("The first element")
 console.log(myarray)
+
+
+var sum = 10
+
+function add(sum){
+var sum = sum + 3
+return sum
+}
+
+console.log("The sum of the number with 3 is "+add(sum))
+
+
+function randomFraction(){
+    return Math.random()
+
+}
+
+console.log(randomFraction())
