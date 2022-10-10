@@ -57,8 +57,22 @@ console.log("The sum of the number with 3 is "+add(sum))
 
 
 function randomFraction(){
-    return Math.random()
+    return Math.floor(Math.random()*20)
 
 }
 
 console.log(randomFraction())
+
+
+function parsing(str){
+    return parseInt(str,2)
+}
+
+console.log(parsing("10011"))
+
+
+const a = ()=>"Hey bud";
+
+
+
+console.log(a());
