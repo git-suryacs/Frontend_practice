@@ -71,8 +71,15 @@ function parsing(str){
 console.log(parsing("10011"))
 
 
-const a = ()=> "Hey bud"
+const A = ()=> "Hey bud"
 
 
 
-console.log(a())
+console.log(A())
+
+
+var arrow = function(a1,a2){
+    return a1.concat(" ").concat(a2)
+}
+
+console.log(arrow("hi","surya"))
