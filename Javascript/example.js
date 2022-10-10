@@ -71,8 +71,8 @@ function parsing(str){
 console.log(parsing("10011"))
 
 
-const a = ()=>"Hey bud";
+const a = ()=> "Hey bud"
 
 
 
-console.log(a());
+console.log(a())
